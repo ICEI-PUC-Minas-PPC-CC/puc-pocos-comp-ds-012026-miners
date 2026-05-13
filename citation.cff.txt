@@ -1,0 +1,28 @@
+title:Predição de Faixa Salarial
+authors:
+  - family-names: de Miranda Pereira
+    given-names: Aline Maria
+  - family-names: da Silva
+    given-names: Ellen Stefany
+  - family-names: Nguyen
+    given-names: Liz Rosa
+  - family-names: dos Santos
+    given-names: Nicole Cristina
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Gonçalves de Pontes
+    given-names: Diego Roberto
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  - Machine Learning
+  - Predição Salarial
+repository-code: 
+version: 1.0.0
+date-released: 2026-05-13
