@@ -3,9 +3,11 @@
 
 `CURSO` Ciência da Computação
 
-`DISCIPLINA` Influência do Trabalho na Média Acadêmica
+`DISCIPLINA` Data Science e Big Data
 
 `SEMESTRE` 4º Período
+
+`TEMA` Medidas de Posição 
 
 [Descrever, em um ou dois parágrafos, o problema investigado, o contexto da pesquisa, a motivação e o objetivo geral do projeto.]
 
