@@ -1,10 +1,11 @@
-# Título do Projeto
+# Influência do Trabalho na Média Acadêmica
 
-`CURSO`
 
-`DISCIPLINA`
+`CURSO` Ciência da Computação
 
-`SEMESTRE`
+`DISCIPLINA` Influência do Trabalho na Média Acadêmica
+
+`SEMESTRE` 4º Período
 
 [Descrever, em um ou dois parágrafos, o problema investigado, o contexto da pesquisa, a motivação e o objetivo geral do projeto.]
 
@@ -12,19 +13,17 @@
 
 ## Integrantes
 
-* Nome completo do aluno 1  
-* Nome completo do aluno 2  
-* Nome completo do aluno 3  
-* Nome completo do aluno 4  
-* Nome completo do aluno 5  
-* Nome completo do aluno 6  
+* Aline Maria de Miranda Pereira
+* Ellen Stefany da Silva 
+* Liz Rosa Nguyen 
+* Nicole Cristina dos Santos  
 
 ---
 
 ## Orientador
 
-* Nome completo do professor  
-
+* Diego Roberto Gonçalves de Pontes
+	  
 ---
 
 # Pesquisa
