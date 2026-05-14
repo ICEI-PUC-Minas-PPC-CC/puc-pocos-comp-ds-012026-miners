@@ -7,7 +7,7 @@
 
 `SEMESTRE` 4º Período
 
-`TEMA` Medidas de Posição 
+`TEMA` Predição de Faixa Salarial
 
 [Descrever, em um ou dois parágrafos, o problema investigado, o contexto da pesquisa, a motivação e o objetivo geral do projeto.]
 
