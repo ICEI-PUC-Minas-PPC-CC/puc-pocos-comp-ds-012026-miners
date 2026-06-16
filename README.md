@@ -1,4 +1,4 @@
-# Influência do Trabalho na Média Acadêmica
+# Dataset: Predição de Faixa Salarial
 
 
 `CURSO` Ciência da Computação
@@ -9,7 +9,7 @@
 
 `TEMA` Predição de Faixa Salarial
 
-[Descrever, em um ou dois parágrafos, o problema investigado, o contexto da pesquisa, a motivação e o objetivo geral do projeto.]
+O dataset contém informações socioeconômicas de indivíduos e tem como objetivo prever se uma pessoa possui renda superior ou inferior a US$50.000 anuais.
 
 ---
 
