@@ -84,7 +84,7 @@ As variáveis trabalhadas neste dataset são as seguintes:
 
 É possível observar uma amostra dos dados em: 
 
-➡ `02_dados/`
+➡ `02_dados/amostras/amostra.md`
 
 ---
 
