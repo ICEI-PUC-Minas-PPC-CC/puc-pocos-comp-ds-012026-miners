@@ -60,17 +60,31 @@ Esta seção contém:
 
 # Dados
 
-Os dados utilizados no projeto estão organizados em:
+O conjunto de dados utilizados neste trabalho foi o dataset Adult Income, disponível na plataforma Kaggle. Ele tem como base da dados o Censo dos Estados Unidos de 1994 e foi desenvolvido por Barry Becker e Ronny Kohavi. Ele contém aproximadamente **48 mil registros** e reúne características socioeconômicas da população, que permitem investigar fatores que podem influenciar o nível de renda dos indivíduos. 
+
+As variáveis trabalhadas neste dataset são as seguintes: 
+
+| nome original no dataset | nome adotado no trabalho | descrição |
+| :---: | :---: | :---: |
+| age | idade | idade do indivíduo |
+| workclass | classe_de_trabalho | tipo de vínculo empregatício |
+| fnlwgt | peso_amostral | peso estatístico atribuído pelo censo |
+| education | escolaridade | nível de escolaridade do indivíduo |
+| educational-num | anos_de_escolaridade | escolaridade representada numericamente |
+| marital-status | estado_civil | situação conjjugal do indivíduo |
+| occupation | ocupacao | profissão ou área de atuação |
+| relationship | relacao_familiar | relação do indivíduo dentro da família |
+| race | raca | grupo racial declarado |
+| gender | sexo | sexo do indivíduo |
+| capital-gain | ganho_capital | ganhos obtidos |
+| capital-loss | perda_capital | perdas financeiras |
+| hour-per-week | horas_semana | quantidade média de horas trabalhadas na semana |
+| native-country | pais_de origem | país de origem do indivíduo |
+| income | renda | faixa de renda anual (variável alvo) |
+
+É possível observar uma amostra dos dados em: 
 
 ➡ `02_dados/`
-
-Estrutura:
-
-- `brutos/` → dados originais (não devem ser alterados)  
-- `externos/` → dados provenientes de fontes externas  
-- `intermediarios/` → dados em processamento  
-- `processados/` → dados finais preparados para análise  
-- `amostras/` → subconjuntos para testes  
 
 ---
 
