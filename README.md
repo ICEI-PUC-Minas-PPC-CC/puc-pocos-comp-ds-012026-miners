@@ -90,16 +90,20 @@ As variáveis trabalhadas neste dataset são as seguintes:
 
 # Análise e Exploração
 
-Os notebooks utilizados para exploração e análise estão em:
+A seguir, estão dispostas as estatísticas descritivas das variáveis quantitativas do conjunto de dados. Foram observadas medidas de tendência central (média e mediana), de dispersão (desvio-padrão) e de amplitude (máximo e mínimo), permitindo visualizar a variabilidade de cada atributo. 
 
-➡ `03_notebooks/`
+| Variável | Média | Mediana | Mínimo | Máximo | Desvio padrão |
+|:---|---:|---:|---:|---:|---:|
+| idade | 38.64 | 37.00 | 17 | 90 | 13.71 |
+| peso_amostral | 189664.13 | 178144.50 | 12285 | 1490400 | 105604.03 |
+| anos_de_escolaridade | 10.08 | 10.00 | 1 | 16 | 2.57 |
+| ganho_capital | 1079.07 | 0.00 | 0 | 99999 | 7452.02 |
+| perda_capital | 87.50 | 0.00 | 0 | 4356 | 403.00 |
+| horas_semana | 40.42 | 40.00 | 1 | 99 | 12.39 |
 
-Conteúdo:
+É possível observar os gráficos resultantes da análise e exploração em:
 
-- exploração inicial  
-- pré-processamento  
-- modelagem  
-- avaliação  
+➡ `03_notebooks/graficos.md`
 
 ---
 
