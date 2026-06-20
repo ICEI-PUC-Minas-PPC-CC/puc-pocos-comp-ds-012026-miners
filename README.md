@@ -103,7 +103,7 @@ A seguir, estão dispostas as estatísticas descritivas das variáveis quantitat
 
 É possível observar os gráficos resultantes da análise e exploração em:
 
-➡ `03_notebooks/graficos.md`
+➡ `07_resultados/tabelas`
 
 ---
 
