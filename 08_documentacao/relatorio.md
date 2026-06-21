@@ -102,7 +102,33 @@ Nas demais variáveis categóricas foi empregada a técnica de Label Encoding, q
 | Recall | 0.4285 | 0.4405 |
 | F1-Score | 0.5363 | 0.5447 |
 
-**Conclusão:** A hipótese foi parcialmente confirmada. O modelo manteve desempenho muito parecido com o original, mostrando que o dataset é grande o suficiente para absorver essa mudança sem perda significativa.
+Neste experimento foi utilizado o algoritmo de **Regressão Logística** para realizar uma classificação dos dados. Para isso, o conjunto de dados foi dividido em duas partes: **70% para treinamento** e **30% para teste**.
+
+A etapa de treinamento foi realizada utilizando 70% dos dados disponíveis, permitindo que o modelo aprendesse os padrões existentes no conjunto. Em seguida, os 30% restantes foram utilizados para testar o desempenho do modelo em dados que ele não havia visto anteriormente.
+
+Após o treinamento, foram calculadas algumas métricas para avaliar a qualidade das previsões realizadas pelo modelo.
+
+### Resultados Obtidos
+
+- **Acurácia:** 82,19%
+- **Precisão:** 71,34%
+- **Recall:** 44,05%
+- **F1-Score:** 54,47%
+
+### Análise dos Resultados
+
+A **acurácia** de 82,19% indica que o modelo acertou a maioria das classificações realizadas no conjunto de teste. Esse resultado mostra que, de forma geral, o modelo apresentou um bom desempenho.
+
+A **precisão** de 71,34% demonstra que, quando o modelo classificou um caso como positivo, ele acertou essa previsão na maior parte das vezes.
+
+Já o **recall** apresentou valor de 44,05%, indicando que o modelo encontrou menos da metade dos casos positivos existentes no conjunto de teste. Isso significa que alguns exemplos positivos não foram identificados corretamente.
+
+O **F1-Score**, que combina precisão e recall em uma única métrica, foi de 54,47%. Esse valor mostra que existe um desequilíbrio entre essas duas métricas, principalmente devido ao recall mais baixo.
+
+### Conclusão
+
+Os resultados mostram que a Regressão Logística conseguiu atingir uma boa taxa de acertos gerais, representada pela acurácia de 82,19%. No entanto, o modelo ainda apresenta dificuldades para identificar todos os casos positivos, como pode ser observado pelo valor do recall.
+De maneira geral, o experimento demonstrou que o modelo possui um desempenho satisfatório, mas ainda há espaço para melhorias visando aumentar a identificação correta dos casos positivos e melhorar o equilíbrio entre as métricas de avaliação.
 
 ---
 
@@ -117,7 +143,45 @@ Nas demais variáveis categóricas foi empregada a técnica de Label Encoding, q
 | Recall | 0.4285 | 0.4450 |
 | F1-Score | 0.5363 | 0.5510 |
 
-**Conclusão:** A hipótese foi confirmada. Aumentar o max_iter trouxe uma melhora pequena mas consistente em todas as métricas.
+Neste experimento foi utilizado o mesmo algoritmo de **Regressão Logística**, porém aumentando o parâmetro `max_iter` de 1000 para 5000. Esse parâmetro define o número máximo de iterações que o algoritmo pode executar durante o treinamento para encontrar a melhor solução.
+
+O objetivo deste teste foi verificar se permitir mais iterações poderia melhorar o desempenho do modelo. Para manter uma comparação justa com o Experimento 1, foram utilizados os mesmos conjuntos de treinamento e teste.
+
+Após o treinamento, o modelo foi avaliado utilizando as métricas de acurácia, precisão, recall e F1-Score.
+
+### Resultados Obtidos
+
+- **Acurácia:** 82,52%
+- **Precisão:** 72,33%
+- **Recall:** 44,50%
+- **F1-Score:** 55,10%
+
+### Análise dos Resultados
+
+A **acurácia** aumentou levemente para 82,52%, indicando uma pequena melhora na quantidade total de classificações corretas realizadas pelo modelo.
+
+A **precisão** passou para 72,33%, mostrando que o modelo ficou um pouco mais confiável ao classificar casos positivos.
+
+O **recall** também apresentou uma pequena melhora, atingindo 44,50%. Apesar do aumento, o modelo ainda deixa de identificar uma parcela significativa dos casos positivos existentes.
+
+O **F1-Score** subiu para 55,10%, refletindo o ganho observado tanto na precisão quanto no recall.
+
+### Comparação com o Experimento 1
+
+Ao comparar os resultados dos dois experimentos, observa-se que o aumento do parâmetro `max_iter` trouxe uma melhora discreta em todas as métricas avaliadas.
+
+| Métrica | Experimento 1 | Experimento 2 |
+|----------|----------|----------|
+| Acurácia | 82,19% | 82,52% |
+| Precisão | 71,34% | 72,33% |
+| Recall | 44,05% | 44,50% |
+| F1-Score | 54,47% | 55,10% |
+
+### Conclusão
+
+Os resultados mostram que aumentar o número máximo de iterações permitiu que o algoritmo encontrasse uma solução ligeiramente melhor, resultando em pequenos ganhos em todas as métricas avaliadas. No entanto, as diferenças foram relativamente pequenas, indicando que o modelo já estava próximo da convergência no Experimento 1.
+
+Dessa forma, embora o aumento de `max_iter` tenha gerado uma melhora no desempenho, o impacto foi limitado. Para obter ganhos mais significativos, pode ser necessário explorar outras estratégias, como ajustes de hiperparâmetros, seleção de atributos ou utilização de algoritmos diferentes.
 
 ---
 
