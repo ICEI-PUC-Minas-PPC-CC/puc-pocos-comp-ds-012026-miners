@@ -151,4 +151,5 @@ Nas demais variáveis categóricas foi empregada a técnica de Label Encoding, q
 
 O modelo de Regressão Logística foi eficaz para prever a faixa salarial, acertando cerca de 82% das previsões. O experimento 2 obteve melhor resultado com max_iter=5000, pois apresentou o maior F1-Score de 0.5510. O projeto mostrou que variáveis como escolaridade, ocupação e estado civil são fundamentais para a previsão salarial. Apesar do bom desempenho, o modelo apresentou dificuldades em identificar corretamente as pessoas que ganham acima de 50K.
 
+---
 ## Vídeo de apresentação: https://sgapucminasbr.sharepoint.com/sites/DataScience_88e4d4/Documentos%20Compartilhados/General/Recordings/Exibir%20Apenas/Reuni%C3%A3o%20em%20General-20260619_203831-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=5gqZqo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
